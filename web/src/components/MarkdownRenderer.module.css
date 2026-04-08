@@ -1,0 +1,129 @@
+.container {
+  line-height: 1.8;
+  color: #374151;
+}
+
+.h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #059669;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #1f2937;
+  margin: 1.5rem 0 0.75rem 0;
+  padding-bottom: 0.375rem;
+  border-bottom: 2px solid #d1d5db;
+}
+
+.h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #374151;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.paragraph {
+  margin: 0.75rem 0;
+  font-size: 0.95rem;
+}
+
+.list {
+  margin: 1rem 0;
+  padding-left: 2rem;
+  list-style: disc;
+}
+
+.listItem {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.codeBlock {
+  background: #f3f4f6;
+  color: #1f2937;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-left: 4px solid #059669;
+  border: 1px solid #e5e7eb;
+}
+
+.code {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Courier New', monospace;
+  white-space: pre;
+}
+
+.spacer {
+  margin: 0.75rem 0;
+}
+
+.hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #d1d5db, transparent);
+  margin: 2rem 0;
+}
+
+/* Inline code styling */
+.container :global(code) {
+  background: #f3f4f6;
+  color: #d946ef;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Courier New', monospace;
+}
+
+.container :global(a) {
+  color: #059669;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+.container :global(a:hover) {
+  border-bottom-color: #059669;
+}
+
+.container :global(strong) {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.container :global(em) {
+  font-style: italic;
+  color: #4b5563;
+}
+
+/* Mobile optimization */
+@media (max-width: 640px) {
+  .h1 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 0.75rem 0;
+  }
+
+  .h2 {
+    font-size: 1.25rem;
+    margin: 1.25rem 0 0.625rem 0;
+  }
+
+  .h3 {
+    font-size: 1.125rem;
+    margin: 1rem 0 0.5rem 0;
+  }
+
+  .codeBlock {
+    font-size: 0.75rem;
+    padding: 1rem;
+  }
+}
