@@ -12,13 +12,13 @@ export function LanguageSwitcher() {
         className={`${styles.button} ${language === 'zh' ? styles.active : ''}`}
         onClick={() => setLanguage('zh')}
       >
-        中文
+        {t.chinese}
       </button>
       <button
         className={`${styles.button} ${language === 'en' ? styles.active : ''}`}
         onClick={() => setLanguage('en')}
       >
-        English
+        {t.english}
       </button>
     </div>
   );

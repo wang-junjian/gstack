@@ -10,7 +10,7 @@ export const zhText = {
   description: "描述",
   stepBy: "冲刺（Sprint）工作流",
   learnMore: "了解更多",
-  english: "English",
+  english: "英文",
   chinese: "中文",
   
   experts: {
@@ -214,7 +214,7 @@ export const enText = {
   stepBy: "Step-by-Step Workflow",
   learnMore: "Learn More",
   english: "English",
-  chinese: "中文",
+  chinese: "Chinese",
   
   experts: {
     "office-hours": {
