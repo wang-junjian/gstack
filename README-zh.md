@@ -1,5 +1,11 @@
 # gstack
 
+[English](./README.md)
+
+![](./images/gstack-web-home-zh.png)
+
+![](./images/gstack-web-expert-zh.png)
+
 > "我觉得可能从 12 月以来基本上就没有写过一行代码，这是一个非常大的变化。" — [Andrej Karpathy](https://fortune.com/2026/03/21/andrej-karpathy-openai-cofounder-ai-agents-coding-state-of-psychosis-openclaw/)，No Priors 播客，2026 年 3 月
 
 当我听到 Karpathy 这么说时，我想知道怎么做到的。一个人怎么可能像一个 20 人的团队一样发布代码？Peter Steinberger 构建了 [OpenClaw](https://github.com/openclaw/openclaw) — 247K GitHub stars — 基本上是一个人用 AI 智能体独立完成的。革命来了。一个掌握正确工具的人可以比传统团队移动得更快。
